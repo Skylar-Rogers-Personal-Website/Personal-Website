@@ -1,3 +1,9 @@
+h2 {
+    display: flex;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h3 {
     display: flex;
     font-family: 'Times New Roman', Times, serif;
