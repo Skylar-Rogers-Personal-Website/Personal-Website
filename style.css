@@ -1,15 +1,39 @@
-h2 {
-    display: flex;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-h3 {
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 10pt;
+    margin-left: 50%;
 }
 
 div {
-    display: flex;
-    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 10pt;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 10pt;
+    margin-left: 50%;
+
+}
+
+nav {
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    height: 500px
+}
+
+.bg {
+    height: 100%;
 }
