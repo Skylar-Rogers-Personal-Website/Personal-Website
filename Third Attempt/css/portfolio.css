@@ -56,3 +56,17 @@ div {
     align-content: start;
 
 }
+
+/* On screens that are 1024px or less*/
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: grey;
+    }
+}
+
+/* On screens that are 480px or less*/
+@media screen and (max-width: 480px) {
+    body {
+        background-color: blue;
+    }
+}
