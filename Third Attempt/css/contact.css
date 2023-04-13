@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18pt;
+    color: rgb(249, 247, 247);
+    background-color: rgb(61, 59, 59);
+}
+
+div {
+    background-color: rgb(61, 59, 59);
+    border: solid 3px;
+    border-color: black;
+}
+
+.grid-container {}
+
+.grid-item-menu {}
+
+.grid-item-picture {}
+
+.grid-item-mission {}
+
+.grid-item-define {}
+
+.grid-item-contact {}
+
+/* On screens that are 1024px or less*/
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: grey;
+    }
+}
+
+/* On screens that are 480px or less*/
+@media screen and (max-width: 480px) {
+    body {
+        background-color: blue;
+    }
+}
